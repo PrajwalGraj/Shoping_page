@@ -1,0 +1,471 @@
+/* .top{
+    margin: 12px;
+} */
+body,html{
+    /* width: 100%; */
+    /* height: 100%; */
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior:smooth;
+}
+header{
+    /* background-color: azure; */
+    /* border: 1px solid black; */
+    overflow: auto;
+    
+}
+.left{
+    /* border: 1px solid black; */
+    display: block;
+    width: 100px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+}
+.mid{
+    /* border: 1px solid rgb(230, 43, 43); */
+    /* display: block; */
+    width: 589px;
+    margin: auto;
+    position: relative;
+    top: -2px;
+    overflow: hidden;
+    
+    
+}
+.right{
+    /* border: 1px solid rgb(20, 45, 185); */
+    display: block;
+    width: 300px;
+    position: absolute;
+    right: 2px;
+    top: 11px;
+}
+.mid ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    top: 4px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+.mid ul li a:after{
+    
+    content: "";
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    height: 2px;
+    width: 0px;
+    left: 0;
+    bottom: -10px;
+    transition: 0.2s;
+}
+.mid ul li a:hover:after{
+    width: 100%;
+    
+}
+.mid ul li{
+    list-style: none;
+    float: left;
+    margin-left: 34px;
+    margin-bottom: 19px;
+    
+}
+.right .btn{
+    width: 100px;
+    height: 29px;
+    border-radius: 9px;
+}
+.heart,.cart{
+    width: 25px;
+    position: absolute;
+    
+    /* background-color: blueviolet; */
+    padding: 9px;
+    border-radius: 17px;
+    
+        /*  should delete the border at last */
+    
+    
+}
+
+.cart{
+    right: 16px;
+    top: -6px;
+    
+}
+.heart{
+    right: 62px;
+    top: -6px;
+    
+}
+.heart:hover{
+    background-color: rgb(221, 221, 221);
+    transition: all;
+    transition-duration: 0.3s;
+}
+.cart:hover{
+    background-color: rgb(221, 221, 221);
+}
+.searchbar:hover{
+    background-color: rgb(221, 221, 221);
+    color: black;
+}
+.search{
+    right: 400px;
+}
+.searchbar{
+    border-radius: 19px;
+    border-style: none;
+    font-size: 17px;
+    width: 180px;
+    margin-right: 29px;
+    padding-left: 32px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 30px;
+    background-color: rgb(240, 240, 240);
+    /* position: absolute;
+    top: 1.5px;
+    right: 90px; */
+     
+}
+.backk{
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.nike{
+    width: 70%;
+    position: absolute;
+    top: -9px;
+    left: 19px;
+}
+
+.solid{
+    /* border: 1px solid black; */
+    background-color: rgb(221, 221, 221);
+    width: 100%;
+    height: 53px;
+    overflow: hidden;
+}
+.solid p{
+    text-align: center;
+    margin-top: 6px;
+    font-weight: 500;
+}
+.solid a{
+    position: relative;
+    top: -11px;
+    display: block;
+    margin: auto;
+    width: 141px;
+    font-size: 12px;
+    color: black;
+    
+}
+.bg{
+    margin: 0px;
+    padding: 0px;
+
+}
+.bg button{
+    position: relative;
+    bottom: 100px;
+    left: 623px;
+    border-style: none;
+    color: white;
+    background-color: black;
+    padding: 20px 60px;
+    border-radius: 50px;
+    font-size: 22px;
+}
+.bg button:hover{
+    cursor: pointer;
+    background-color: rgb(43, 43, 43);
+}
+.image{
+    width: 100%;
+    height: 310px;
+}
+.poster{
+    width: 1300px;
+    margin: auto;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    height: 720px;
+}
+.text{
+    margin-top: 100px;
+}
+.ds{
+    display: block;
+    margin: auto;
+    
+}
+.first{
+    width: 159px;
+    margin-bottom: 6px;
+    font-family: 'Lora', serif;
+}
+.second{
+    width: 689px;
+    margin-bottom: 23px;
+    font-size: 50px;
+    font-family: 'Zen Dots', cursive;
+    
+}
+.third{
+    width: 547px;
+    font-family: 'Lora', serif;
+}
+.text button{
+    border-style: none;
+    color: white;
+    background-color: black;
+    padding: 8px 30px;
+    border-radius: 50px;
+    font-size: 17px;
+    display: block;
+    margin: auto;
+    width:auto;
+    margin-top: 20px;
+    
+}
+.text button:hover{
+    cursor: pointer;
+    background-color: rgb(55, 55, 55);
+}
+.apl{
+    /* clip: auto; */
+    display:block;
+    margin: auto;
+    margin-top: 20px;
+    width: 3000px;
+    position: relative;
+    /* width: 100%; */
+    /* overflow: hidden; */
+    margin: 0;
+    padding: 0;
+    /* max-width: 80%; */
+     left: -780px;
+    right: -780px;
+    height: 600px; 
+    /* clip: rect(0px,30px,30px,0px); */
+    
+    
+
+}
+.texa{
+    /* color: ; */
+    display: block;
+    margin: auto;
+    width: 403px;
+    position: relative;  
+    bottom: 567px;  
+    color: white;
+    font-size: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.texb{
+    display: block;
+    margin: auto;
+    width: 192px;
+    position: relative;  
+    bottom: 567px;  
+    color: white;
+    font-size: 35px;
+    font-weight:normal;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.texc{
+    display: block;
+    margin: auto;
+    width: 60px;
+    position: relative;  
+    bottom: 549px;  
+    color: white;
+    font-size: 22px;
+    font-weight:300;
+    color: rgb(6, 128, 222);
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.last .first{
+    display: block;
+    margin: auto;
+    width: 57px;
+    margin-top: -62px;
+    font-size: 18px;
+}
+.last .second{
+    display: block;
+    margin: auto;
+    width: 943px;
+    margin-top: 8px;
+    font-size: 50px;
+    margin-bottom: 27px;
+}
+.last .third{
+    display: block;
+    margin: auto;
+    width: 282px;
+    margin-top: -20px;
+    font-size: 18px;
+}
+
+.bac{
+    display: block;
+    position: relative;
+    left: 200px; 
+    margin-top: 90px;  
+    margin-bottom: 90px;  
+    widows: 2px;
+    height: 550px;
+    box-shadow: 20px 20px 70px rgb(0, 0, 0);
+}
+.bac:hover{
+    
+    box-shadow: 20px 20px 60px rgb(0,0,0);
+}
+
+.bca{
+    display: block;
+    position: relative;
+    left: 200px; 
+    margin-top: 90px;  
+    margin-bottom: 90px;  
+    widows: 2px;
+    height: 550px;
+}
+.va{
+    position: relative;
+    top: -535px;
+    left: 853px;
+    bottom: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.vb{
+    position: relative;
+    top: -566px;
+    left: 957px;
+    bottom: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.ff{
+    position: relative;
+    top: -566px;
+    left: 957px;
+    bottom: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+}
+.bot button{
+    border-style: none;
+    color: white;
+    background-color: rgb(06, 128, 222);
+    padding: 8px 30px;
+    border-radius: 50px;
+    font-size: 17px;
+    display: block;
+    margin: auto;
+    width:auto;
+    position: relative;
+    top: -546px;
+    left: 359px;
+}
+.bot button:hover{
+    background-color: rgb(0, 116, 204);
+}
+.black{
+    
+    background-color: black;
+    height: 250px;
+    
+}
+.black .midd{
+    position: relative;
+    top: -125px;
+    left: 261px;
+    width: 240px;
+    display: block;
+    
+}
+.black .midd ul li{
+    color: rgb(152, 152, 152);
+    list-style: none;
+    font-size: 13px;
+    font-weight:100;
+    margin-bottom: 13px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.black .left{
+    position: relative;
+    top: 47px;
+    width: 204px;
+    display: block;
+}
+.black .left ul li{
+    color: rgb(152, 152, 152);
+    list-style: none;
+    font-size: 13px;
+    
+    margin-bottom: 19px;
+    padding-top: -30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+.black .left ul li a{
+    text-decoration: none;
+    color: white;
+}
+.black .top{
+    position: relative;
+    top: -293px;
+    left: 449px;
+    width: 240px;
+    display: block;
+}
+.black .top ul li{
+    color: rgb(152, 152, 152);
+    list-style: none;
+    font-size: 13px;
+    font-weight:100;
+    margin-bottom: 13px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.material-symbols-outlined{
+    columns: white;
+    display: block;
+    margin: auto;
+    width: 12px;
+    position: absolute;
+    bottom: -2943px;
+    left: 36px;
+    filter: invert(100%);
+}
+
+
+.twi{
+    background-color: rgb(154, 154, 154);
+    overflow:hidden;
+    padding: 5px;
+    border-radius: 50%;
+    width: 40px;
+    display: block;
+    margin: auto;
+    float: right;
+    position: absolute;
+    bottom: -2600px;
+    left: 1350px;
+}
